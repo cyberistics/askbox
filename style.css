@@ -6,7 +6,7 @@ body {
 h1 {
   text-align: center;
   margin-top: 40px;
-  color: #9a8c98;
+  color: #869AAA;
   letter-spacing: 1.5px;
 }
 form {
@@ -32,7 +32,7 @@ textarea {
   padding: 10px;
   font-size: 1rem;
   margin-bottom: 18px;
-  border: 1.5px solid #c9ada7;
+  border: 1.5px solid #869AAA;
   border-radius: 8px;
   transition: border-color 0.2s;
 }
@@ -41,7 +41,7 @@ textarea:focus {
   outline: none;
 }
 button[type="submit"] {
-  background: #9a8c98;
+  background: #DCE4EB;
   color: #fff;
   font-weight: 700;
   border: none;
@@ -52,6 +52,6 @@ button[type="submit"] {
   transition: background 0.3s, transform 0.2s;
 }
 button[type="submit"]:hover {
-  background: #4a4e69;
+  background: #C1CDD7;
   transform: scale(1.05);
 }
