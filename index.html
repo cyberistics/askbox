@@ -19,6 +19,60 @@
     <textarea name="question" required></textarea><br>
     <button type="submit">Submit</button>
   </form>
-  <!-- Optionally, list previous questions here -->
+  <!-- , list previous questions here -->
+/* Section heading */
+h2 {
+  margin-top: 40px;
+  text-align: center;
+  color: #4a4e69;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+
+/* The list container */
+ul#questions-list, ul.recent-questions {
+  max-width: 500px;
+  margin: 30px auto 60px auto;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(74,78,105,0.08);
+  border: 2px solid #c9ada7;
+}
+
+/* Each question item */
+ul#questions-list li,
+ul.recent-questions li {
+  padding: 20px 28px;
+  border-bottom: 1px solid #f2e9e4;
+  font-size: 1.13rem;
+  color: #22223b;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  transition: background 0.2s;
+}
+
+ul#questions-list li:last-child,
+ul.recent-questions li:last-child {
+  border-bottom: none;
+}
+
+ul#questions-list li:hover,
+ul.recent-questions li:hover {
+  background: #f2e9e4;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  ul#questions-list, ul.recent-questions {
+    max-width: 95vw;
+    padding: 0;
+  }
+  ul#questions-list li,
+  ul.recent-questions li {
+    padding: 15px 10px;
+    font-size: 1rem;
+  }
+}
 </body>
 </html>
