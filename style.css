@@ -3,8 +3,10 @@ body {
   font-family: 'Quicksand', Arial, sans-serif;
   color: #f2e9e4;
 }
+
 header {
   width: 400px; 
+  margin: 0 auto;
   background: #869AAA;
   padding: 18px 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
