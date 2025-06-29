@@ -3,6 +3,31 @@ body {
   font-family: 'Quicksand', Arial, sans-serif;
   color: #f2e9e4;
 }
+header {
+  background: #4a4e69;
+  padding: 18px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+nav {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+nav a {
+  color: #f2e9e4;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #9a8c98;
+}
 h1 {
   text-align: center;
   margin-top: 40px;
