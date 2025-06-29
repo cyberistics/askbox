@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #22223b 0%, #4a4e69 100%);
+  background-image: url('https://postimg.cc/DSwY6kBW');
   font-family: 'Quicksand', Arial, sans-serif;
   color: #f2e9e4;
 }
@@ -15,7 +15,7 @@ form {
   margin: 40px auto;
   padding: 30px 25px;
   border: 20px solid;
-border-image: url('https://i.postimg.cc/vBCVW8mW/2025-05-24-0xh-Kleki.png') 11% round;
+  border-image: url('https://postimg.cc/mPpp6X5m') 11% round;
   box-shadow: 0 8px 24px rgba(74, 78, 105, 0.18);
   display: flex;
   flex-direction: column;
