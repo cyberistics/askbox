@@ -16,6 +16,7 @@ form {
   padding: 30px 25px;
   border: 20px solid;
   border-image: url('https://i.postimg.cc/k57rGLFP/Untitled42-20250629110128.png') 30 round;
+  border-image-outset: 15px;
   box-shadow: 0 8px 24px rgba(74, 78, 105, 0.18);
   display: flex;
   flex-direction: column;
